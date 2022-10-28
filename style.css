@@ -1,0 +1,49 @@
+* {                                     /*universal selector*/
+  font-family: cursive;
+  background-color: black;
+}
+
+.extras {                               /*class selector*/
+  font-family: unset;
+  color: springgreen;
+  text-align: center;
+}
+
+p {                                     /*element selector*/
+  color: aqua;
+}
+
+h1 {                                    /*element selector*/
+  font-family: inherit;
+  color: crimson;
+  border-style: dashed;
+  border-color: chartreuse;
+  border-width: 2px;
+  animation: myanim 3 infinite;
+}
+
+@keyframes myanim {
+  from {border-color:springgreen}
+  to   {border-color:darkorchid}
+}
+
+
+.right{
+  text-align: right;
+}
+
+.left {
+  text-align: left;
+}
+
+.centre {
+  text-align: center;
+}
+
+h3.centre {
+  color: yellow;
+}
+
+
+
+
